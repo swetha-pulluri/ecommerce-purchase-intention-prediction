@@ -1,4 +1,4 @@
-# 🧠 E-commerce Purchase Intention Prediction
+# 🛒 E-commerce Purchase Intention Prediction
 
 ## 📌 Project Overview
 This project predicts whether an online shopper will make a purchase based on their browsing behavior and session-level data. The goal is to help e-commerce businesses understand customer intent and improve conversion rates.
@@ -12,12 +12,14 @@ Given user behavior features such as page visits, duration, bounce rates, and sp
 - Matplotlib, Seaborn
 - Scikit-learn
 
-## Dataset
-This project uses the **Online Shoppers Purchasing Intention Dataset**.
+## 📊 Dataset
+- Dataset: Online Shoppers Purchasing Intention Dataset
+- Source: UCI Machine Learning Repository
+- Target Variable: **Revenue** (Purchase / No Purchase)
 
-- The dataset provided in this repository is a **sample version** for demonstration.
-- Original full dataset source:  
-  https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset
+🔗 Original dataset:
+https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset
+
 
 ## 🔄 Project Workflow
 1. Data Loading
@@ -33,8 +35,17 @@ This project uses the **Online Shoppers Purchasing Intention Dataset**.
 - Decision Tree
 - Random Forest
 
-## ✅ Results
-Random Forest performed best with higher accuracy and better generalization compared to other models.
+## 📈 Exploratory Data Analysis & Results
+
+### Class Distribution
+![Class Distribution](images/class_distribution.png)
+
+### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
+### Model Accuracy Comparison
+![Model Accuracy](images/model_accuracy.png)
+
 
 ## 📈 Business Impact
 This model can help e-commerce platforms:
@@ -44,3 +55,6 @@ This model can help e-commerce platforms:
 
 ## 📎 Conclusion
 This project demonstrates an end-to-end classification workflow using real-world e-commerce data.
+
+```markdown
+⭐ If you found this project useful, feel free to star the repository!
